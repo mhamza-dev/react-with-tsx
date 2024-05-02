@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UserServices, { User } from "./services/user-services";
+import UserServices, { User } from "../services/user-services";
 import { CanceledError } from "axios";
 
 const Users = () => {
@@ -54,7 +54,7 @@ const Users = () => {
         setUsers(originalUsers);
         setErrors(error.message);
       });
-  };cç√∫cxvcZlshso;iogwjt6l;;raqjk-'/P:'Ozx  zsve dfc
+  }
 
   const onEdit = (user: User) => {
     const originalUsers = users;
